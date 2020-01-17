@@ -1,0 +1,31 @@
+{
+  "name": "weatherapp-js",
+  "version": "1.0.0",
+  "description": "Weather App with HTML, CSS and JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegonunes/weatherapp-js.git"
+  },
+  "keywords": [
+    "weather",
+    "app",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Diego Nunes <contato@diegonunes.dev> (https://diegonunes.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegonunes/weatherapp-js/issues"
+  },
+  "homepage": "https://github.com/diegonunes/weatherapp-js#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
