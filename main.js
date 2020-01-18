@@ -42,7 +42,7 @@ function displayResults(weather) {
   temp.innerHTML = `${Math.round(weather.main.temp)}<span>ºC</span>`;
 
   const weather_el = document.querySelector('.current .weather');
-  weather_el.innerText = weather.weather[0].main;
+  weather_el.innerText = weather.weather[0].description;
 
   const hilow = document.querySelector('.hi-low');
   hilow.innerText = `${Math.round(weather.main.temp_min)}ºC / ${Math.round(weather.main.temp_max)}ºC`;
